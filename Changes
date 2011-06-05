@@ -1,0 +1,23 @@
+Revision history for Perl extension Log::Sigil
+
+0.08    Thu Jul  4 18:28:00 2011
+        - 'new' returns instance but carps.
+        - Fix a some bugs, but i don't remember those.
+0.07    Sun May 16 00:33:00 2011
+        - Fix a 'requires' bug in Makefile.PL.
+0.06    Sun May 16 00:27:00 2011
+        - Suppot subroutine level change.  When caller subroutine changes,
+          this repots it as reset sigil.
+        - new will be croak, use 'instance' instead.
+0.05    Sun May 15 23:44:00 2011
+        - Fix a bug in multi messages, that prints odd suffix.
+        - Supports $, var.
+0.04    Sun May 15 00:21:00 2011
+        - Fix a bug in multi messages, that prints all messages are formated.
+          Needs only first message is formated.
+0.03    Sat May 14 23:55:00 2011
+        - Supports more than one message in say, warn, and dump.
+0.02    Sat May 14 22:50:00 2011
+        - Add a dump method
+0.01    Fri Apr 29 04:33:57 2011
+        - original version
