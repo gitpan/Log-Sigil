@@ -21,9 +21,8 @@ no_index:
 requires:
   Class::Accessor: 0
   Class::Singleton: 0
-  List::Util: 0
   Readonly: 0
 resources:
   license: http://dev.perl.org/licenses/
   repository: git://github.com/kuniyoshi/Log-Sigil.git
-version: 0.09
+version: 0.10

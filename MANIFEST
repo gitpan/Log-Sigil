@@ -31,6 +31,7 @@ t/11-multi-sub.t
 t/12-main-multi-sub.t
 t/13-package-multi-sub.t
 t/14-multi-multi-sub.t
+t/15-suffix.t
 xt/01_podspell.t
 xt/02_perlcritic.t
 xt/03_pod.t
