@@ -32,6 +32,10 @@ t/12-main-multi-sub.t
 t/13-package-multi-sub.t
 t/14-multi-multi-sub.t
 t/15-suffix.t
+t/16-bias.t
+t/17-quiet.t
+t/18-sayf.t
+t/19-warnf.t
 xt/01_podspell.t
 xt/02_perlcritic.t
 xt/03_pod.t
