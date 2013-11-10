@@ -1,29 +1,21 @@
 ---
 abstract: 'show warnings with sigil prefix'
 author:
-  - 'kuniyoshi kouji <kuniyoshi@cpan.org>'
+  - 'Kuniyoshi Kouji <kuniyoshi@cpan.org>'
 build_requires:
-  ExtUtils::MakeMaker: 6.42
+  Test::More: 0
+  Test::Output: 0
 configure_requires:
-  ExtUtils::MakeMaker: 6.42
-distribution_type: module
-generated_by: 'Module::Install version 1.01'
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 5.006, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: Log-Sigil
-no_index:
-  directory:
-    - inc
-    - t
-    - xt
 requires:
   Class::Accessor: 0
   Class::Singleton: 0
   Readonly: 0
-  perl: 5.8.0
-resources:
-  license: http://dev.perl.org/licenses/
-  repository: git+ssh://github.com/kuniyoshi/Log-Sigil
-version: 0.15
+version: 1.02
